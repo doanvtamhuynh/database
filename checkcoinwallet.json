@@ -1,12 +1,14 @@
-{
-  "username": "doanvtamhuynh",
-  "password": "doanvtamhuynh"
-},
-{
-  "username": "admin",
-  "password": "admin"
-},
-{
-  "username": "danang",
-  "password": "danang"
-}
+[
+  {
+    "username": "doanvtamhuynh",
+    "password": "doanvtamhuynh"
+  },
+  {
+    "username": "admin",
+    "password": "admin"
+  },
+  {
+    "username": "vietnam",
+    "password": "vietnam"
+  }
+]
