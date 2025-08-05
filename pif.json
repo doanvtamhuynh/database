@@ -9,7 +9,8 @@
   "FINGERPRINT": "google/felix_beta/felix:16/BP31.250610.004/13769805:user/release-keys",
   "MANUFACTURER": "Google",
   "MODEL": "Pixel Fold",
-  "SECURITY_PATCH": "2025-07-05"
+  "SECURITY_PATCH": "2025-07-05",
+  "RELEASE": "12"
 }
 {
   "FINGERPRINT": "google/tangorpro_beta/tangorpro:16/BP31.250610.004/13769805:user/release-keys",
