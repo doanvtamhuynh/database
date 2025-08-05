@@ -2,7 +2,8 @@
   "FINGERPRINT": "google/caiman_beta/caiman:16/BP31.250610.004/13769805:user/release-keys",
   "MANUFACTURER": "Google",
   "MODEL": "Pixel 9 Pro",
-  "SECURITY_PATCH": "2025-07-05"
+  "SECURITY_PATCH": "2025-07-05",
+  "RELEASE": "12"
 }
 {
   "FINGERPRINT": "google/felix_beta/felix:16/BP31.250610.004/13769805:user/release-keys",
@@ -14,17 +15,20 @@
   "FINGERPRINT": "google/tangorpro_beta/tangorpro:16/BP31.250610.004/13769805:user/release-keys",
   "MANUFACTURER": "Google",
   "MODEL": "Pixel Tablet",
-  "SECURITY_PATCH": "2025-07-05"
+  "SECURITY_PATCH": "2025-07-05",
+  "RELEASE": "12"
 }
 {
   "FINGERPRINT": "google/tokay_beta/tokay:16/BP31.250610.004/13769805:user/release-keys",
   "MANUFACTURER": "Google",
   "MODEL": "Pixel 9",
-  "SECURITY_PATCH": "2025-07-05"
+  "SECURITY_PATCH": "2025-07-05",
+  "RELEASE": "12"
 }
 {
   "FINGERPRINT": "google/akita_beta/akita:16/BP31.250610.004/13769805:user/release-keys",
   "MANUFACTURER": "Google",
   "MODEL": "Pixel 8a",
-  "SECURITY_PATCH": "2025-07-05"
+  "SECURITY_PATCH": "2025-07-05",
+  "RELEASE": "12"
 }
