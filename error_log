@@ -1,0 +1,45 @@
+[  0% 72/77631] Check prebuilt ELF binary: out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/an
+FAILED: out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libloc_api_v02_intermediates/check_elf_files.ti
+mestamp
+/bin/bash -c "(rm -f out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libloc_api_v02_intermediates/check
+_elf_files.timestamp ) && (out/host/linux-x86/bin/check_elf_file 	    --skip-bad-elf-magic 	 
+   --skip-unknown-elf-machine 	     	    --soname libloc_api_v02.so 	    --shared-lib out/target/produ
+ct/sargo/obj_arm/SHARED_LIBRARIES/libutils.vendor_intermediates/libutils.vendor.so --shared-lib out/targe
+t/product/sargo/obj_arm/SHARED_LIBRARIES/libcutils.vendor_intermediates/libcutils.vendor.so --shared-lib 
+out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libqmi_cci_intermediates/libqmi_cci.so --shared-lib out
+/target/product/sargo/obj_arm/SHARED_LIBRARIES/libqmi_common_so_intermediates/libqmi_common_so.so --share
+d-lib out/target/product/sargo/obj_arm/SHARED_LIBRARIES/liblog.vendor_intermediates/liblog.vendor.so --sh
+ared-lib out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libc.vendor_intermediates/libc.vendor.so --sha
+red-lib out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libm.vendor_intermediates/libm.vendor.so --shar
+ed-lib out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libc++.vendor_intermediates/libc++.vendor.so --s
+hared-lib out/target/product/sargo/obj_arm/SHARED_LIBRARIES/libdl.vendor_intermediates/libdl.vendor.so 	 
+   --system-shared-lib libc --system-shared-lib libm --system-shared-lib libdl 	     	    --llvm-readob
+j=prebuilts/clang/host/linux-x86/clang-r536225/bin/llvm-readobj 	    out/soong/.intermediates/vend
+or/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_v02.so ) && (touch out/target
+/product/sargo/obj_arm/SHARED_LIBRARIES/libloc_api_v02_intermediates/check_elf_files.timestamp )"
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: error: DT_NEEDED "libloc_core.so" is not specified in shared_libs.
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: error: DT_NEEDED "libgps.utils.so" is not specified in shared_libs.
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note: Fix suggestions:
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:   Android.bp: shared_libs: ["libc++", "libcutils", "libgps.utils", "libloc_core", "liblog",
+ "libqmi_cci", "libqmi_common_so", "libutils"],
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:   Android.mk: LOCAL_SHARED_LIBRARIES := libc++ libcutils libgps.utils libloc_core liblog li
+bqmi_cci libqmi_common_so libutils
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note: If the fix above doesn't work, bypass this check with:
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:   Android.bp: check_elf_files: false,
+out/soong/.intermediates/vendor/google/sargo/libloc_api_v02/android_vendor_arm_armv8-a_shared/libloc_api_
+v02.so: note:   Android.mk: LOCAL_CHECK_ELF_FILES := false
+08:56:16 ninja failed with: exit status 1
+There were 4 actions that completed after the action that failed. See verbose.log.gz for their output.
+
+#### failed to build some targets (03:03 (mm:ss)) ####
